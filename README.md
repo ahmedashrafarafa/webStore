@@ -1,4 +1,11 @@
-# MyStore
+# MyStore Project
+
+MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart.
+
+
+# Project introduction:
+The user should choose the product and click on 'Add to cart' button and choose the quantity.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 

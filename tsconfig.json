@@ -1,6 +1,8 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "compileOnSave": false,
+  "include": ["src/**/*.json"],
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -11,10 +13,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop":true,
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
