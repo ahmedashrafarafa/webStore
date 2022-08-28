@@ -24,6 +24,7 @@ export class ProductListComponent implements OnInit {
   //products: Product[] = productsData;
   crudeService: any;
   httpClient: any;
+  //products: Product[];
   constructor(crudeService: CrudService) 
   { 
     this.crudeService.getAll().subscribe((data: Product[]) => {
